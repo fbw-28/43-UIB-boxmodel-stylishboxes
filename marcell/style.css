@@ -1,0 +1,36 @@
+
+.fake-box {
+    width: 20vw;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+  margin:50px;
+  padding: 20px 50px 20px 20px;
+
+}
+
+.fake-box:before,
+.fake-box:after {
+    position: absolute;
+
+}
+
+.fake-box:after {
+    content:'';
+    border: 1px solid black;
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    right: 20px;
+    bottom:20px;
+    z-index:-1;
+}
+
+.info-box {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    width: 30vw;
+    margin: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.315);
+}
