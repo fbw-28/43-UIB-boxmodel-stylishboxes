@@ -1,11 +1,10 @@
-
 .fake-box {
     width: 20vw;
-  height: 300px;
-  border: 1px solid black;
-  position: relative;
-  margin:50px;
-  padding: 20px 50px 20px 20px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin: 50px;
+    padding: 20px 50px 20px 20px;
 
 }
 
@@ -16,14 +15,14 @@
 }
 
 .fake-box:after {
-    content:'';
+    content: '';
     border: 1px solid black;
-    position:absolute;
-    top:-20px;
-    left:-20px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
     right: 20px;
-    bottom:20px;
-    z-index:-1;
+    bottom: 20px;
+    z-index: -1;
 }
 
 .info-box {
