@@ -1,0 +1,60 @@
+.fake-box {
+    position: relative;
+}
+
+.fake-box:before, .fake-box:after {
+    position: absolute;
+}
+
+.fake-box:after {
+    left: 20px;
+    top: 20px;
+}
+
+.box {
+    width: 30%;
+    height: 100px;
+    background-color: pink;
+    margin: 40px;
+    padding: 5px;
+    /* horizontal offset, vertical offset, blur radius, spread radius (optional), color */
+    box-shadow: 5px 3px 10px violet, 10px 10px 8px grey; 
+}
+
+.container {
+    float:left;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    }
+
+.info-box1 {
+    margin: 10px;
+    padding: 5px;
+    float:left;
+    background-color:none;
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 3px 5px black, 15px 15px 8px blue;
+    border: grey solid 1px;
+    }
+.info-box2 {
+    margin: 10px;
+    padding: 5px;
+    float:left;
+    background-color:none;
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 3px 5px black, 15px 15px 8px blue;
+    border: grey solid 1px;
+    }
+.info-box3 {
+    margin: 10px;
+    padding: 5px;
+    float:left;
+    background-color:none;
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 3px 5px black, 15px 15px 8px blue;
+    border: grey solid 1px;
+    }
