@@ -1,0 +1,36 @@
+
+.fake-box {
+    position: relative;
+    height: 40vh;
+    width: 15vw;
+    border: solid black 1px;
+    margin-left: 5vw;
+}
+
+article {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.info-box {
+    height: 150px;
+    width: 29vw;
+    display: inline-block;
+    border: solid 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.404);
+    margin: 30px
+}
+
+.fake-box:before, .fake-box:after {
+    position: absolute;
+}
+
+.fake-box:before {
+    position: absolute;
+    content: "";
+    width: 15vw;
+    height: 40vh;
+    border: 1px solid;
+    left: -10px;
+    top: -10px;
+}
