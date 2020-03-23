@@ -1,5 +1,17 @@
-.fake-box {
-    position: relative;
+article {
+    display: inline-block;
+    width: 25vw;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.fake-box article {
+    height: 25vw;
+}
+
+.info-box {
+    display: inline-block;
 }
 
 .fake-box:before, .fake-box:after {
