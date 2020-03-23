@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.fake-box {
+    position: relative;
+    width: 30vw;
+    height: 300px;
+    margin: 60px;
+    padding: 5px;
+    color: red;
+
+}
+
+.fake-box::before,
+.fake-box::after {
+    position: absolute;
+    content: '';
+    width: 30vw;
+    height: 350px;
+    border: 1px solid black;
+
+}
+
+.fake-box::after{
+    left: -20px;
+    top: -20px;
+}
+
+.info-box{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 25vw;
+    height: inherit;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px pink;
+}
+
+
+
