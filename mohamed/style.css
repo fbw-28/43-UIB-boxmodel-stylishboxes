@@ -1,0 +1,50 @@
+
+h6::first-letter {
+    font-size: small;
+    text-shadow: 2px 10px 2px  gray;
+    color:red;
+}
+
+h6::selection {
+    color: blue;
+    background: yellow;
+  }
+
+
+.fake-box {
+    position: relative;
+    width: 15vw;
+    border: solid black 1px;
+    height: 50vh;
+    border:black solid .5px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin: 20px;
+    box-shadow: 6px 5px gray;
+    }
+
+    .fake-box::first-line {
+         color: rgb(58, 211, 12);
+      
+    }
+
+.fake-box:before, .fake-box:after {
+    position: none;
+    content: " i ♥  css and js";
+    color: brown;
+    font-size: 12px;
+
+}
+  
+.info-box {
+    display: inline-block;
+    text-align: center;
+    width: 25vw;
+    height: 10vh;
+    border: black .5px solid;
+    font-size: 6px;
+    box-shadow: 3px  3px gray ;
+    
+}
+
+   
