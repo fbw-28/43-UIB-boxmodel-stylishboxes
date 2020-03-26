@@ -5,6 +5,12 @@
     margin: 120px;
     padding: 5px;
 
+
+}
+.fake-box article {
+    position: fixed;
+    width: 260px;
+    padding: 5px 0 0 5px;
 }
 
 
